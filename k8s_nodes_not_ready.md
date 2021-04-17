@@ -1,4 +1,4 @@
-A kubernetes cluster is consists of bunch of nodes/servers managed thru etcd. A server crash could happen at anytime. So what would you do when the cluster nodes reboot and shows up as "not ready" status to re-join the kubernetes cluster? I searched google and other resources to find a good document to use but I could not and thought of writing this down for the k8s fambam to use. 
+A kubernetes cluster consists of bunch of nodes/servers managed thru etcd. A server crash could happen at anytime. So what would you do when the cluster nodes reboot and shows up as "not ready" status to re-join the kubernetes cluster? I searched google and other resources to find a good document to use but I could not and thought of writing this down for the k8s fambam to use. 
 
 ```
 [rainer@k8s-master ~]$ sudo kubectl get nodes -o wide
